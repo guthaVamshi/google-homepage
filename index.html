@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+<head>
+    <title>Google</title>
+  </head>
+  <style>
+      
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+
+#nav_bar {
+  float: right;
+}
+
+#nav_bar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+#nav_bar #sign_in {
+  background: #4887ef; 
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px; 
+  font-weight: bold;
+}
+
+.nav-links {
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+
+#sign_in {
+  color: #fff;
+}
+
+
+.google #logo {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.in {
+  text-align: center;
+ 
+}
+
+#in-search { 
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+  border: 0cm;
+}
+
+.in #in-search {
+  padding: 0 8px;
+}
+
+
+#bod{
+
+    margin-left:37% ;
+    border: black 1px solid;
+    
+    max-width: fit-content;
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+ 
+ li.nav-links a {
+    display: none;
+  }
+  
+ #logo {
+   padding: 0;
+ }
+  
+ #bod{
+    margin: auto;
+ }
+ #in-search {
+   width: 80%;
+
+ }
+  
+ 
+}
+
+@media screen and (max-width: 565px) {
+ 
+  li.nav-links a {
+    display: none;
+  }
+  
+  
+ #logo {
+   padding: 0;
+ }
+  
+ 
+  
+ #in-search {
+   width: 80%;
+
+ }
+  
+ 
+}
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul id="nav_bar">
+          <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
+          <li class="nav-links"><a href="#">Images</a></li>
+          <li id="sign_in"><a href="#">Sign In</a></li>
+        </ul>  
+      </nav>  
+    </header>  
+    
+    
+    <div class="google">
+        <a href="#" id="logo"><img src="data:image/png;base64,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"></a>
+    </div>
+    
+    
+    <div class="in">  
+      <form id="bod">
+        
+        <input type="text" id="in-search" placeholder="Search Google or type URL">
+       <a href=""><i class="fas fa-search "></i></a>
+      </form>
+    </div>  
+    
+    
+    
+      
+   
+        
+  </body>
+  </html>
